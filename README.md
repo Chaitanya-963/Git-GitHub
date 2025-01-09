@@ -30,3 +30,17 @@ Lets Go..!➡️
 **Here is the answer** - GitHub is a cloud-based platform for hosting Git repositories(repos). It offers tools for team collaboration, including pull requests, issues tracking, and project records. GitHub is where Chai Code developer collaborate and maintain project repositories.
 
 </aside>
+
+<aside>
+
+
+**👉🏻 Some additional info:**
+
+- **Version control system?**
+    
+    The history of your code is managed via version control systems. They let you work together and keep track of file modifications. Software development requires version control systems. Think of version control as a game checkpoint. You can always return to the previous checkpoint and go to any point in the game. In software development, this idea is the same.
+    
+- **Repository?**
+A **repository** (repo) is like a digital folder where your project's code, files, and version history are stored. It’s the core structure used by Git and GitHub to organize and manage projects.
+
+</aside>
