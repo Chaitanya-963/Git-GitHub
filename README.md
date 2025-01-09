@@ -215,3 +215,30 @@ A **repository** (repo) is like a digital folder where your project's code, file
         - **chore:** for maintenance.
     5. Use Meaning full message with appropriate prefixe (git commit -m “feat: Add profile updating feature”)
     
+
+## 👉🏼 **Branching Workflow**
+
+<aside>
+
+### **Branching Strategy**
+
+- **`main`**: Contains stable, production-ready code.
+- **`development`**: Contains code under active development.
+- **Feature branches**: Created for new features or bug fixes.
+    
+    ```
+    git branch feature/tea-menu
+    git checkout feature/tea-menu
+    ```
+    
+
+### **Merging Branches**
+
+1. Once the feature is complete, merge it into `development` or `main`:
+    
+    ```bash
+    git checkout main
+    git merge feature/tea-menu
+    ```
+    
+2. Resolve conflicts if any arise during the merge.
