@@ -44,3 +44,86 @@ Lets Go..!➡️
 A **repository** (repo) is like a digital folder where your project's code, files, and version history are stored. It’s the core structure used by Git and GitHub to organize and manage projects.
 
 </aside>
+
+## 👉🏼 Installation of Git & GitHub:
+
+1. **Installing Git**                                      
+    - **Windows**
+        - Download the git installer from [git-scm.com](https://git-scm.com/)
+            
+            ![image.png](image.png)
+            
+    - **MacOS**
+        - Install homebrew if not already installed:
+            
+            ```
+            /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+            ```
+            
+        - Install Git:
+            
+            ```
+            brew install git
+            ```
+            
+    - **Linux**
+        - Use your package manager to install Git:
+            
+            ```
+            sudo apt install git
+            ```
+            
+    
+
+1. **Configuring Git**
+    - Using User name and email:
+        
+        ```
+        git config --global user.name "Your Name"
+        git config --global user.email "your.email@example.com"
+        ```
+        
+
+1. **GitHub Account setup:**
+    - Go to [GitHub](https://github.com/) and sign up for a free account.
+        
+        ![Screenshot 2025-01-06 200240.png](Screenshot_2025-01-06_200240.png)
+        
+    - Verify your email address.
+
+## 👉🏼 Cloning the Chai Code Repository:
+
+- So Now you create your GitHub account, now sign in.
+    - Then go to repository section on GitHub.
+    - Create new repo.
+        - Dashboard view:
+            
+            ![Screenshot 2025-01-06 201933.png](Screenshot_2025-01-06_201933.png)
+            
+        - Repository section view:
+            
+            ![Screenshot 2025-01-06 202018.png](Screenshot_2025-01-06_202018.png)
+            
+    - Fill the details correctly:
+        
+        ![Screenshot 2025-01-06 202627.png](Screenshot_2025-01-06_202627.png)
+        
+    - Follow this quick setup in vs code terminal:
+        
+        ![Screenshot 2025-01-06 203228.png](Screenshot_2025-01-06_203228.png)
+        
+    - Then click on code button:
+        
+        ![Screenshot 2025-01-06 203338.png](Screenshot_2025-01-06_203338.png)
+        
+    - Copy the repository's HTTPS URL or SSH URL.
+        
+        ![Screenshot 2025-01-06 203528.png](Screenshot_2025-01-06_203528.png)
+        
+    - Clone the repository locally:
+        
+        ```
+        git clone https://github.com/ChaiCode/example-repo.git
+        cd example-repo
+        ```
+     
