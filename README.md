@@ -242,3 +242,46 @@ A **repository** (repo) is like a digital folder where your project's code, file
     ```
     
 2. Resolve conflicts if any arise during the merge.
+
+
+</aside>
+
+## **👉🏼 Pull Requests (PR)**
+
+<aside>
+
+1. Push your feature branch to GitHub:
+    
+    ```bash
+    bash
+    Copy code
+    git push origin feature/tea-menu
+    ```
+    
+2. On GitHub, click "New Pull Request" in the repository.
+3. Add a detailed description of the changes and request a code review.
+
+### Pull Request Description Example:
+
+```css
+css
+Copy code
+### Description
+This PR adds a tea selection feature to the application.
+
+### Changes
+- Add dropdown menu for tea types.
+- Update CSS for menu styling.
+
+### Checklist
+- [x] Code reviewed.
+- [x] Tests passed.
+```
+
+</aside>
+
+## **👉🏼 Best Practices**
+
+1. **Commit regularly**: Save your progress frequently.
+2. **Write descriptive commit messages**: Ensure your messages explain the changes clearly.
+3. **Pull updates often**: Stay up-to-date with the remote repository to avoid conflicts.
