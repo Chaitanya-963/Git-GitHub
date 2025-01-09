@@ -200,4 +200,18 @@ A **repository** (repo) is like a digital folder where your project's code, file
         git init             # Initialize a Git repository
         ```
         
+   
+
+## 👉🏼 **Commit Message Rules:**
+
+- Important to understand the rules to work at Chai Code
+    1.  Use the present tense ("Add feature" not "Added feature").
+    2.  Use camel casing in message.
+    3. Keep the message short (40-50 characters or less).
+    4. Use prefixes like `fix:`, `feat:`, `chore:`, `docs:` for categorization.
+        - **feat:** for new features.
+        - **fix:** for bug fixes.
+        - **docs:** for documentation updates.
+        - **chore:** for maintenance.
+    5. Use Meaning full message with appropriate prefixe (git commit -m “feat: Add profile updating feature”)
     
