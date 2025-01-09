@@ -126,4 +126,78 @@ A **repository** (repo) is like a digital folder where your project's code, file
         git clone https://github.com/ChaiCode/example-repo.git
         cd example-repo
         ```
-     
+
+## **👉🏼 Basic Git Commands:**
+
+| **Command** | **Description** |
+| --- | --- |
+| `git status` | Check the status of your working directory. |
+| `git add <file>` | Add changes to the staging area. |
+| `git commit -m "Message"` | Save staged changes to the repository. |
+| `git push origin` | Push committed changes to the remote repository. |
+| `git pull origin` | Fetch and merge changes from the remote repository. |
+| `git log` | View the history of commits. |
+| `git clone` | Used to clone the repository in your local system. |
+| `git init` | Initializing .git file inside the desired folder for tracking the file. |
+- Commands:
+    1. **git status**
+        
+        ```
+        On branch main
+        Your branch is up to date with 'origin/main'.
+        
+        Untracked files:
+          (use "git add <file>..." to include in what will be committed)
+            README.md
+        ```
+        
+    2. **git add <file name>**
+        
+        ```
+        git add README.md
+        ```
+        
+    3. **git commit -m “Message”**
+        
+        ```
+        git commit -m "Add initial onboarding documentation"
+        
+        ```
+        
+    4. **git push origin <branch name>**
+        
+        ```
+        git push origin main
+        ```
+        
+    5. **git pull origin <branch name>**
+        
+        ```
+        git pull origin main
+        ```
+        
+    6. **git log**
+        
+        ```
+        commit d1e8f9b2f8f6b99b9a8b41a8c7e9f7e3a2f59d24
+        Author: Chaitanya <chaitanya@example.com>
+        Date:   Sat Jan 5 14:32:00 2025 +0530
+        
+            docs: Add initial onboarding documentation
+        ```
+        
+    7. **git clone <URL>**
+        
+        ```
+        git clone https://github.com/ChaiCode/example-repo.git
+        cd example-repo
+        ```
+        
+    8. **git init** 
+        
+        ```
+        cd my-project        # Navigate to the project folder
+        git init             # Initialize a Git repository
+        ```
+        
+    
